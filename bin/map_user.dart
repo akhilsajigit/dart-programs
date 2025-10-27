@@ -6,9 +6,8 @@ void main(List<String> arguments) {
     "email": "sreejith@gmail.com",
     "marks":[29,44,66],
     "address":{
-      "pincode":987656,
-      "housename":"abc123"
-
+      "pin code":987656,
+      "house name":"abc123"
     }
   };
   print(user);

@@ -1,14 +1,8 @@
 import 'dart:io';
 
 void main(){
-  int a=1,b=1;
 
-  int i= 1;
-  while(i<=10){
-    stdout.write('$a, ');
-    int next = a+b;
-    a = b;
-    b = next;
-    i++;
+  for(int i=1;i<=100;i++){
+    stdout.write('${i*5}, ');
   }
 }

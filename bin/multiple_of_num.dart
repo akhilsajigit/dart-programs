@@ -1,14 +1,14 @@
 
+import 'dart:ffi';
 import 'dart:io';
 
 void main() {
-  stdout.write('Enter a number: ');
-  int number = int.parse(stdin.readLineSync()!);
-
-
-  for(int j=1;j<=100;j++){
-    if(j%number==0){
-      stdout.write("$j, ");
+  List<int> numbers = [1,2,3,4,5,6,7,8,9];
+  int max = 0;
+  for(int i=0;i<numbers.length;i++){
+    if(numbers[i]>max){
+      max = numbers[i];
     }
   }
+  print(max);
 }
